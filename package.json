@@ -1,0 +1,33 @@
+{
+  "name": "nextjs-with-typescript",
+  "version": "4.0.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@types/uuid": "^8.3.0",
+    "clsx": "latest",
+    "mdi-material-ui": "^6.18.0",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-draggable": "^4.4.3",
+    "react-zoom-pan-pinch": "^1.6.1",
+    "resize-observer-polyfill": "^1.5.1",
+    "use-local-storage-state": "^4.0.0",
+    "uuid": "^8.3.0"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build && next export",
+    "start": "next start"
+  },
+  "devDependencies": {
+    "@types/next": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest"
+  }
+}
